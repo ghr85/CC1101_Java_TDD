@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6033f74-ce8d-40e6-9d03-7519299b9282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="583" />
+          <entry key="JAVA" value="681" />
         </counts>
       </usages-collector>
     </session>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="159">
+              <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
@@ -65,11 +66,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="215">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#71#72#0" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -431,7 +438,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553529882560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553530121139" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -445,8 +452,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in HomeworkDayOne_test (1)">
+  <component name="RunManager" selected="JUnit.All in HomeworkDayOne_test (3)">
     <configuration name="All in HomeworkDayOne_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeworkDayOne_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in HomeworkDayOne_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeworkDayOne_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in HomeworkDayOne_test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeworkDayOne_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -465,9 +488,13 @@
     <list>
       <item itemvalue="JUnit.All in HomeworkDayOne_test" />
       <item itemvalue="JUnit.All in HomeworkDayOne_test (1)" />
+      <item itemvalue="JUnit.All in HomeworkDayOne_test (2)" />
+      <item itemvalue="JUnit.All in HomeworkDayOne_test (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in HomeworkDayOne_test (3)" />
+        <item itemvalue="JUnit.All in HomeworkDayOne_test (2)" />
         <item itemvalue="JUnit.All in HomeworkDayOne_test (1)" />
         <item itemvalue="JUnit.All in HomeworkDayOne_test" />
       </list>
@@ -524,8 +551,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="159">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
@@ -544,11 +571,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="215">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#71#72#0" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
