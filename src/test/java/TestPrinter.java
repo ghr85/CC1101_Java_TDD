@@ -12,10 +12,14 @@ public class TestPrinter {
     }
 
     @Test
-    public void canCountPaper(){
-        assertEquals(0,printer.countPaper())
+    public void canCheckPaper(){
+        assertEquals(0,printer.checkPaper());
     }
-    
+        @Test
+    public void canCheckToner(){
+        assertEquals(0,printer.checkToner());
+    }
+
 /*
     Create a Printer class that has a property for number of sheets of paper left.
     Add a method to print that takes in a number of pages and number of copies.
