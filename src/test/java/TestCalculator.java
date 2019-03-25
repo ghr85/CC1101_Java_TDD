@@ -11,7 +11,6 @@ public class TestCalculator {
     this.calculator = new Calculator();
     }
     @Test
-    //add,subtract,multiply,divide
     public void canAdd(){
     assertEquals(5,calculator.add(2,3));
     }
