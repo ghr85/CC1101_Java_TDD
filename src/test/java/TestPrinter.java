@@ -26,10 +26,18 @@ public class TestPrinter {
     }
     @Test
     public void canFillToner(){
-        printer.fillPaper(20);
+        printer.fillToner(20);
         assertEquals(20,printer.checkToner());
     }
-    
+
+    @Test
+    public void canPrint__Positive(){
+        printer.fillPaper(20);
+        printer.fillToner(20);
+        printer.printJob(2,10);
+        assertEquals(0,printer.checkPaper());
+        assertEquals(19, printer.checkToner());
+    }
 
 /*
     Create a Printer class that has a property for number of sheets of paper left.
